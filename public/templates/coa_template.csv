@@ -1,0 +1,5 @@
+kode_akun,nama_akun,kategori,saldo_normal
+1101,Kas,Aset Lancar,debit
+1102,Bank,Aset Lancar,debit
+2101,Hutang Usaha,Liabilitas,kredit
+3101,Modal Pemilik,Ekuitas,kredit
