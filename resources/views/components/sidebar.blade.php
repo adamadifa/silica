@@ -6,13 +6,7 @@
     <!-- Branding Section -->
     <div class="px-8 py-10 flex items-center justify-between">
         <a href="{{ route('dashboard') }}" class="flex items-center space-x-3 group">
-            <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-200 transition-transform group-hover:scale-110">
-                <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M12 22V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M22 7L12 12L2 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
+            <img src="https://unsil.ac.id/wp-content/uploads/2021/07/LOGO-UNSIL.png" class="w-10 h-10 object-contain transition-transform group-hover:scale-110" alt="UNSIL Logo">
             <span class="text-2xl font-bold tracking-tighter text-slate-800">Silica<span class="text-blue-600">.</span></span>
         </a>
     </div>

@@ -24,7 +24,7 @@
                         <!-- Header -->
                         <div class="mb-6 text-center lg:text-left">
                             <h1 class="text-3xl font-extrabold text-slate-900 mb-1">Sign in to Silica</h1>
-                            <p class="text-slate-500 text-sm">Mulai manajemen akuntansi Anda.</p>
+                            <p class="text-slate-600 font-semibold text-sm">Siliwangi Integrated Cycle Accounting</p>
                         </div>
 
                         <!-- Session Status -->
