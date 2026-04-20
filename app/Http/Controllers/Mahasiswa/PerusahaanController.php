@@ -63,7 +63,7 @@ class PerusahaanController extends Controller
     {
         $request->validate([
             'nama_perusahaan' => 'required|string|max:255',
-            'kelas_id' => 'required|exists:kelases,id',
+            'kelas_id' => 'required|exists:kelas,id',
             'alamat' => 'nullable|string',
             'telepon' => 'nullable|string|max:20',
             'email' => 'nullable|email|max:255',
@@ -120,7 +120,7 @@ class PerusahaanController extends Controller
 
         $request->validate([
             'nama_perusahaan' => 'required|string|max:255',
-            'kelas_id' => 'required|exists:kelases,id',
+            'kelas_id' => 'required|exists:kelas,id',
             'alamat' => 'nullable|string',
             'telepon' => 'nullable|string|max:20',
             'email' => 'nullable|email|max:255',

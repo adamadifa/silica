@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 #[Fillable(['dosen_id', 'nama_kelas', 'tahun_ajaran'])]
 class Kelas extends Model
 {
+    protected $table = 'kelas';
+
     /**
      * Dosen pengampu kelas
      */
